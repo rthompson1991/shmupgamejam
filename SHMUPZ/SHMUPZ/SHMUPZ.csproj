@@ -120,14 +120,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimationManager.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Camera.cs" />
     <Compile Include="GamePage.xaml.cs">
       <DependentUpon>GamePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Game1.cs" />
+    <Compile Include="GamePlay.cs" />
+    <Compile Include="GameplayManager.cs" />
     <Compile Include="GameStateManager.cs" />
+    <Compile Include="Layer.cs" />
+    <Compile Include="MenuManager.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -135,11 +142,16 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="ApplicationInsights.config" />
+    <Content Include="Content\Clouds2.png" />
+    <Content Include="Content\FloorTile.png" />
+    <Content Include="Content\gb_walk.png" />
+    <Content Include="Content\inner.fbx" />
     <None Include="packages.config" />
     <None Include="SHMUPZ_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Credits.png" />
+    <Content Include="Content\SpeedLines.png" />
     <Content Include="Content\Start.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\Logo.scale-100.png" />

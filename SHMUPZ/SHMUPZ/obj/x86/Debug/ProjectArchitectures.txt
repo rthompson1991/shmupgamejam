@@ -1,1 +1,1 @@
-C:\Users\gamejam\Desktop\SmhupProgressUniversal\SHMUPZ\SHMUPZ\SHMUPZ.csproj;x86
+C:\Users\gamejam\Desktop\SmhupProgressUniversal\shmupgamejam\SHMUPZ\SHMUPZ\SHMUPZ.csproj;x86
